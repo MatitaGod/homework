@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registro de mascotas </title>
+</head>
+<h1>Registro de mascotas</h1>
+
+<body>
+    <form name="form1" action="" method=""></form>
+    <table width="100%" align="center" border="5">
+        <tr>
+            <td>Nombre mascota</td>
+            <td><input type="text" name="name" size="20" maxlength="5" required></td>
+        </tr>
+        <tr>
+            <td>Correo Dueño</td>
+            <td><input type="email" name="correo" size="15"required ></td>
+        </tr>
+        <tr>
+            <td>Tipo</td>
+            <td>
+            <select name="tipo">
+                <option value="0">seleccione tipo</option>
+                    <option value="lota">perros.
+                    <option value="lota">gatos.
+                    <option value="lota">hamsters.
+                    <option value="lota">peces.
+
+                </option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Raza</td>
+        <td>
+        <select name="raza">
+            <option value="o">seleccione raza</option>
+                <option value="lota">pequeños.
+                <option value="lota">medianos.
+                <option value="lota">grandes.
+            </option>
+        </select>
+    </td>
+</tr>
+<tr>    
+    <td>Fecha Nacto</td>
+    <td><input type="date" name="fecha">seleccione fecha</td>
+</tr>
+<td>Género</td>
+    <td>
+    <input type="radio" name="ciudadnacimiento">Hembra.<br>    
+    <input type="radio" name="ciudadnacimiento">Macho.<br>
+</td>
+</tr>
+<td>Vacunas</td>
+    <td>
+        <input type="checkbox" name="Vacunas">Distemper<br>
+        <input type="checkbox" name="Vacunas">Coronavirus Canino<br>
+        <input type="checkbox" name="Vacunas">Polivalente<br>
+        <input type="checkbox" name="Vacunas">Parvovirus<br>
+    </td>
+    <tr>
+        <td>Adjuntar Foto</td>
+        <td><input type="file" name="datos">Cargar Foto</td>    
+    </tr>
+</tr>
+<tr>
+    <td>
+        <input type="submit" value="registrar" name="btn1">
+        <input type="reset" value="borrar Formulario" name="btn3">
+ </td>
+</tr>
+
+
+
+
+    </table>
+
+</html>
